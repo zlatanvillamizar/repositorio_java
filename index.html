@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melimarket - Conciertos Conectados</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Barra de navegación estética con filtros -->
+    <navbar-component></navbar-component>
+
+    <!-- Contenedor principal para la vitrina de conciertos -->
+    <main class="store-container">
+        <div class="cards-grid" id="events-container">
+            <!-- Aquí nuestro JS pintará dinámicamente los componentes <card-component> -->
+        </div>
+    </main>
+
+    <!-- Enlaces a los scripts de tus componentes -->
+    <script src="js/components/navbar-component.js" type="module"></script>
+    <script src="js/components/card-component.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>

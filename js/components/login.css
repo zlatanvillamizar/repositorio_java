@@ -1,0 +1,8 @@
+.title-box h1 {
+    font-family: 'Times New Roman', serif !important;
+    font-size: 4rem !important;
+    color: #fca9da !important; /* Este es el rosa que quieres */
+    text-transform: lowercase !important;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.9) !important;
+    margin: 0 !important;
+}
