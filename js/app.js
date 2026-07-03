@@ -34,3 +34,18 @@ function renderizarEventos() {
         contenedor.appendChild(card);
     });
 }
+
+import { DataService } from './js/data-service.js';
+
+// Inicializamos la base de datos al arrancar la app
+DataService.init();
+
+// Importamos el servicio de datos
+import { DataService } from './data-service.js';
+
+// Importamos los componentes
+import './components/category-manager.js';
+import './components/category-modal.js';
+
+// Inicializamos la base de datos
+DataService.init();
