@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conciertos Conectados - Admin</title>
+    <title>Admin · Conciertos Conectados</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div id="app"></div>
 
-    <!-- Si quieres ver el login, pon esto: -->
-    <login-panel></login-panel>
+    <!-- ============================================================ -->
+    <!-- IMÁGENES OCULTAS PARA REFERENCIA (no se ven, solo existen)    -->
+    <!-- ============================================================ -->
+    <div style="display:none;">
+        <!-- Imagen de login -->
+        <img id="img-login" src="img/melanie-login.jpg" alt="Login">
+        <!-- Imagen de fondo -->
+        <img id="img-fondo" src="img/fondopaginamel.jpg" alt="Fondo">
+        <!-- Imágenes de eventos (para referencia en admin) -->
+        <img id="img-crybaby" src="img/crybabytour.jpg" alt="Cry Baby">
+        <img id="img-k12" src="img/melancolie-k12.jpg" alt="K-12">
+        <img id="img-portals" src="img/possession.jpg" alt="Portals">
+        <img id="img-hades" src="img/Hadesmelanie.jpg" alt="Hades">
+        <img id="img-afterschool" src="img/otravzahades.jpg" alt="After School">
+        <img id="img-saltsdom" src="img/thecreature.jpg" alt="Salts Dom">
+    </div>
 
-    <!-- Si quieres ver la gestión de categorías, pon esto: -->
-    <category-manager></category-manager>
-
-    <!-- La forma correcta es dejar que app.js maneje todo lo demás -->
-    <script type="module" src="js/app.js"></script>
-
+    <script src="js/storage.js"></script>
+    <script src="js/dataset.js"></script>
+    <script src="js/admin.js"></script>
 </body>
 </html>
