@@ -404,3 +404,146 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() { toast.remove(); }, 3000);
     }
 });
+
+// ============================================================
+// NUEVA FUNCIÓN - VENTAS MEJORADAS (Agregar al final)
+// ============================================================
+
+// ===== VENTAS - VERSIÓN MEJORADA =====
+function renderVentas(container) {
+    const ventas = Storage.getVentas().sort(function(a, b) {
+        return new Date(b.fecha) - new Date(a.fecha);
+    });
+
+    // Calcular estadísticas
+    const totalVentas = ventas.length;
+    const totalIngresos = ventas.reduce(function(sum, v) { return sum + (v.total || 0); }, 0);
+    const totalItems = ventas.reduce(function(sum, v) { return sum + (v.items ? v.items.length : 0); }, 0);
+
+    if (ventas.length === 0) {
+        container.innerHTML = `
+            <div class="section-header">
+                <h3><i class="fas fa-shopping-cart"></i> Ventas</h3>
+            </div>
+            <div class="ventas-empty">
+                <i class="fas fa-shopping-bag"></i>
+                <h3>No hay ventas registradas</h3>
+                <p>Cuando los clientes realicen compras, aparecerán aquí.</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = `
+        <div class="section-header">
+            <h3><i class="fas fa-shopping-cart"></i> Ventas</h3>
+        </div>
+
+        <!-- Estadísticas -->
+        <div class="ventas-stats">
+            <div class="stat-card">
+                <i class="fas fa-receipt"></i>
+                <div class="stat-info">
+                    <span class="stat-number">${totalVentas}</span>
+                    <span class="stat-label">Ventas totales</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-dollar-sign"></i>
+                <div class="stat-info">
+                    <span class="stat-number">$${totalIngresos.toLocaleString()}</span>
+                    <span class="stat-label">Ingresos totales</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-ticket-alt"></i>
+                <div class="stat-info">
+                    <span class="stat-number">${totalItems}</span>
+                    <span class="stat-label">Boletas vendidas</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lista de ventas -->
+        ${ventas.map(function(v) {
+            const fecha = new Date(v.fecha);
+            const fechaFormateada = fecha.toLocaleDateString('es', {
+                day: '2-digit',
+                month: 'long',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            const numItems = v.items ? v.items.length : 0;
+            const cliente = v.cliente || { name: 'N/A', doc: 'N/A', email: 'N/A', address: 'N/A', phone: 'N/A' };
+
+            return `
+                <div class="venta-card">
+                    <div class="venta-header">
+                        <div class="venta-id">
+                            <strong>#${v.id}</strong>
+                            <span class="venta-badge">${numItems} ${numItems === 1 ? 'boleta' : 'boletas'}</span>
+                        </div>
+                        <div class="venta-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            ${fechaFormateada}
+                        </div>
+                        <div class="venta-total">$${v.total.toLocaleString()}</div>
+                    </div>
+
+                    <div class="venta-cliente">
+                        <span class="cliente-info">
+                            <i class="fas fa-user"></i>
+                            <span class="cliente-name">${cliente.name}</span>
+                        </span>
+                        <span class="cliente-info">
+                            <i class="fas fa-id-card"></i>
+                            <span class="cliente-doc">${cliente.doc}</span>
+                        </span>
+                        <span class="cliente-info">
+                            <i class="fas fa-envelope"></i>
+                            <span class="cliente-email">${cliente.email}</span>
+                        </span>
+                        <span class="venta-ciudad">
+                            <i class="fas fa-map-marker-alt"></i>
+                            ${v.ciudad || 'N/A'}
+                        </span>
+                    </div>
+
+                    <details>
+                        <summary>
+                            <i class="fas fa-eye"></i> Ver detalles del pedido
+                        </summary>
+                        <div class="venta-detalle">
+                            <div class="detalle-header">
+                                <span>Producto</span>
+                                <span>Precio</span>
+                            </div>
+                            ${v.items && v.items.length > 0 ? v.items.map(function(item) {
+                                return `
+                                    <div class="item">
+                                        <span class="item-name">
+                                            <span class="item-dot"></span>
+                                            ${item.nombre || 'Producto'}
+                                        </span>
+                                        <span class="item-price">$${(item.precio || 0).toLocaleString()}</span>
+                                    </div>
+                                `;
+                            }).join('') : '<div class="item" style="color:#6a5b66;">No hay productos</div>'}
+                            <div class="total-row">
+                                <span class="total-label">Total</span>
+                                <span class="total-amount">$${v.total.toLocaleString()}</span>
+                            </div>
+                            <div class="cliente-detalle">
+                                <span><i class="fas fa-address-card"></i> ${cliente.address}</span>
+                                <span><i class="fas fa-phone"></i> ${cliente.phone}</span>
+                                <span><i class="fas fa-envelope"></i> ${cliente.email}</span>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+            `;
+        }).join('')}
+    `;
+}

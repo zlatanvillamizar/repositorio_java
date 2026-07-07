@@ -6,19 +6,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const app = document.getElementById('app');
     let cart = [];
 
-    // ===== MAPA DE IMÁGENES ACTUALIZADO =====
+    // ===== MAPA DE IMÁGENES =====
     function getImageSrc(eventId) {
         const map = {
-            1: 'img/crybabytour.jpg',       // Cry Baby Tour
-            2: 'img/melconciertoK-12.jpg',     // K-12 Tour
-            3: 'img/possesion.jpg',         // Portals Tour
-            4: 'img/Hadesmelanie.jpg',       // Hades Tour
-            5: 'img/otravezhades.jpg',       // After School Tour
-            6: 'img/thecreature.jpg'         // Salts Dom
+            1: 'img/crybabytour.jpg',
+            2: 'img/melconciertoK-12.jpg',
+            3: 'img/possesion.jpg',
+            4: 'img/Hadesmelanie.jpg',
+            5: 'img/otravezhades.jpg',
+            6: 'img/thecreature.jpg'
         };
         return map[eventId] || 'https://via.placeholder.com/400x200/6a1b4d/fff?text=🎵+Concierto';
     }
 
+    // ===== RENDER PRINCIPAL =====
     function render() {
         const events = Storage.getEvents();
         const categorias = Storage.getCategories();
@@ -79,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // ===== RENDER EVENTOS =====
     function renderEvents(events) {
         const grid = document.getElementById('eventGrid');
         if (!grid) return;
@@ -103,8 +105,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const imgSrc = getImageSrc(event.id);
             const precio = event.precio || 0;
-
-            console.log(`🔍 Evento ${event.id}: ${event.nombre} → Imagen: ${imgSrc}`);
 
             return `
                 <div class="event-card" data-id="${event.id}">
@@ -163,6 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    // ===== FILTRAR EVENTOS =====
     function filterEvents() {
         const search = document.getElementById('searchInput').value.toLowerCase().trim();
         const ciudad = document.getElementById('filterCiudad').value;
@@ -186,12 +187,11 @@ document.addEventListener('DOMContentLoaded', function() {
         renderEvents(filtered);
     }
 
+    // ===== ACTUALIZAR BADGE =====
     function updateCartBadge() {
         const count = document.getElementById('cartCount');
         if (count) count.textContent = cart.length;
     }
-
-    
 
     // ===== DETALLE DEL EVENTO =====
     function showEventDetail(event) {
@@ -234,119 +234,167 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-   // ===== CARRITO - VERSIÓN MEJORADA =====
-function openCartModal() {
-    const total = cart.reduce(function(sum, i) { return sum + Number(i.precio); }, 0);
+    // ============================================================
+    // CARRITO - VERSIÓN ÚNICA Y FUNCIONAL
+    // ============================================================
 
-    const modal = document.createElement('div');
-    modal.className = 'modal-overlay';
-    modal.innerHTML = `
-        <div class="modal-box cart-modal">
-            <button class="close-modal" onclick="this.closest('.modal-overlay').remove()">&times;</button>
-            
-            <div class="cart-header">
-                <i class="fas fa-shopping-cart"></i>
-                <h2>Carrito</h2>
-                <span class="cart-count">${cart.length} ${cart.length === 1 ? 'item' : 'items'}</span>
-            </div>
+    function openCartModal() {
+        const total = cart.reduce(function(sum, i) { return sum + Number(i.precio); }, 0);
 
-            ${cart.length === 0 ? `
-                <div class="cart-empty">
-                    <i class="fas fa-shopping-bag"></i>
-                    <p>Tu carrito está vacío</p>
-                    <p style="font-size:0.8rem;color:#6a5b66;margin-top:0.3rem;">Explora nuestros conciertos y agrega tus favoritos</p>
+        const modal = document.createElement('div');
+        modal.className = 'modal-overlay';
+        modal.id = 'cartModalContainer';
+        modal.innerHTML = `
+            <div class="modal-box cart-modal">
+                <button class="close-modal" onclick="document.getElementById('cartModalContainer').remove()">&times;</button>
+                
+                <div class="cart-header">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h2>Carrito</h2>
+                    <span class="cart-count">${cart.length} ${cart.length === 1 ? 'item' : 'items'}</span>
                 </div>
-            ` : `
-                <div class="cart-items">
-                    ${cart.map(function(item) {
-                        const imgSrc = item.imagen || 'https://via.placeholder.com/55/6a1b4d/fff?text=🎵';
-                        return `
-                            <div class="cart-item">
-                                <img src="${imgSrc}" alt="${item.nombre}" onerror="this.src='https://via.placeholder.com/55/6a1b4d/fff?text=🎵'">
-                                <div class="item-info">
-                                    <span class="item-name">${item.nombre}</span>
-                                    <span class="item-price">$${(item.precio || 0).toLocaleString()}</span>
+
+                ${cart.length === 0 ? `
+                    <div class="cart-empty">
+                        <i class="fas fa-shopping-bag"></i>
+                        <p>Tu carrito está vacío</p>
+                        <p style="font-size:0.8rem;color:#6a5b66;margin-top:0.3rem;">Explora nuestros conciertos y agrega tus favoritos</p>
+                    </div>
+                ` : `
+                    <div class="cart-items">
+                        ${cart.map(function(item) {
+                            const imgSrc = item.imagen || 'https://via.placeholder.com/55/6a1b4d/fff?text=🎵';
+                            return `
+                                <div class="cart-item">
+                                    <img src="${imgSrc}" alt="${item.nombre}" onerror="this.src='https://via.placeholder.com/55/6a1b4d/fff?text=🎵'">
+                                    <div class="item-info">
+                                        <span class="item-name">${item.nombre}</span>
+                                        <span class="item-price">$${(item.precio || 0).toLocaleString()}</span>
+                                    </div>
+                                    <button class="item-remove" onclick="removeFromCart(${item.id})" title="Eliminar">
+                                        <i class="fas fa-times"></i>
+                                    </button>
                                 </div>
-                                <button class="item-remove" onclick="removeFromCart(${item.id})" title="Eliminar">
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        `;
-                    }).join('')}
-                </div>
-
-                <div class="cart-footer">
-                    <div class="cart-total">
-                        <span class="total-label">Total</span>
-                        <span class="total-amount">$${total.toLocaleString()}</span>
+                            `;
+                        }).join('')}
                     </div>
-                    <button class="btn-buy" id="buyBtn" ${cart.length === 0 ? 'disabled' : ''}>
-                        <i class="fas fa-credit-card"></i> Comprar
-                    </button>
-                    <div class="checkout-form" id="checkoutForm">
-                        <div class="form-group full-width">
-                            <label>N° identificación</label>
-                            <input type="text" id="doc" placeholder="Ej: 123456789">
+
+                    <div class="cart-footer">
+                        <div class="cart-total">
+                            <span class="total-label">Total</span>
+                            <span class="total-amount">$${total.toLocaleString()}</span>
                         </div>
-                        <div class="form-group full-width">
-                            <label>Nombre completo</label>
-                            <input type="text" id="name" placeholder="Ej: Melanie Martinez">
-                        </div>
-                        <div class="form-group full-width">
-                            <label>Dirección</label>
-                            <input type="text" id="address" placeholder="Ej: Calle 123 #45-67">
-                        </div>
-                        <div class="form-group">
-                            <label>Teléfono</label>
-                            <input type="text" id="phone" placeholder="Ej: 3001234567">
-                        </div>
-                        <div class="form-group">
-                            <label>E-mail</label>
-                            <input type="email" id="email" placeholder="Ej: melanie@mail.com">
-                        </div>
-                        <button class="btn-confirm full-width" onclick="confirmPurchase()">
-                            <i class="fas fa-check-circle"></i> Confirmar compra
+                        <button class="btn-buy" id="buyBtn">
+                            <i class="fas fa-credit-card"></i> Comprar
                         </button>
+                        <div class="checkout-form" id="checkoutForm">
+                            <div class="form-group full-width">
+                                <label>N° identificación</label>
+                                <input type="text" id="doc" placeholder="Ej: 123456789">
+                            </div>
+                            <div class="form-group full-width">
+                                <label>Nombre completo</label>
+                                <input type="text" id="name" placeholder="Ej: Melanie Martinez">
+                            </div>
+                            <div class="form-group full-width">
+                                <label>Dirección</label>
+                                <input type="text" id="address" placeholder="Ej: Calle 123 #45-67">
+                            </div>
+                            <div class="form-group">
+                                <label>Teléfono</label>
+                                <input type="text" id="phone" placeholder="Ej: 3001234567">
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" id="email" placeholder="Ej: melanie@mail.com">
+                            </div>
+                            <button class="btn-confirm full-width" id="confirmBtn">
+                                <i class="fas fa-check-circle"></i> Confirmar compra
+                            </button>
+                        </div>
                     </div>
-                </div>
-            `}
-        </div>
-    `;
-    document.body.appendChild(modal);
+                `}
+            </div>
+        `;
+        document.body.appendChild(modal);
 
-    modal.addEventListener('click', function(e) {
-        if (e.target === modal) modal.remove();
-    });
+        // ===== Botón Comprar =====
+        const buyBtn = modal.querySelector('#buyBtn');
+        if (buyBtn) {
+            buyBtn.addEventListener('click', function() {
+                const form = modal.querySelector('#checkoutForm');
+                if (form) {
+                    form.classList.toggle('active');
+                    if (form.classList.contains('active')) {
+                        setTimeout(function() {
+                            form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }, 100);
+                    }
+                }
+            });
+        }
 
-    // Mostrar formulario al hacer clic en Comprar
-    const buyBtn = modal.querySelector('#buyBtn');
-    if (buyBtn) {
-        buyBtn.addEventListener('click', function() {
-            const form = modal.querySelector('#checkoutForm');
-            if (form) {
-                form.classList.toggle('active');
-                // Scroll al formulario
-                setTimeout(function() {
-                    form.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }, 100);
-            }
+        // ===== Botón Confirmar compra =====
+        const confirmBtn = modal.querySelector('#confirmBtn');
+        if (confirmBtn) {
+            confirmBtn.addEventListener('click', function() {
+                const doc = modal.querySelector('#doc')?.value?.trim() || '';
+                const name = modal.querySelector('#name')?.value?.trim() || '';
+                const address = modal.querySelector('#address')?.value?.trim() || '';
+                const phone = modal.querySelector('#phone')?.value?.trim() || '';
+                const email = modal.querySelector('#email')?.value?.trim() || '';
+
+                if (!doc || !name || !address || !phone || !email) {
+                    alert('⚠️ Por favor complete todos los campos');
+                    return;
+                }
+
+                if (cart.length === 0) {
+                    alert('⚠️ El carrito está vacío');
+                    return;
+                }
+
+                const venta = {
+                    id: Date.now(),
+                    fecha: new Date().toISOString(),
+                    items: cart.map(function(i) { 
+                        return { id: i.id, nombre: i.nombre, precio: i.precio }; 
+                    }),
+                    total: cart.reduce(function(s, i) { return s + Number(i.precio); }, 0),
+                    cliente: { doc, name, address, phone, email },
+                    ciudad: cart[0]?.ciudad || 'N/A'
+                };
+
+                const ventas = Storage.getVentas();
+                ventas.push(venta);
+                Storage.setVentas(ventas);
+
+                cart = [];
+                updateCartBadge();
+
+                modal.remove();
+
+                alert('🎫 ¡Compra realizada con éxito! Boleta asignada.');
+                showToast('🎫 ¡Compra realizada con éxito!', 'success');
+            });
+        }
+
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) modal.remove();
         });
     }
 
-    window._cartModal = modal;
-}
-
-// ===== ELIMINAR DEL CARRITO =====
-window.removeFromCart = function(eventId) {
-    cart = cart.filter(function(item) { return item.id !== eventId; });
-    updateCartBadge();
-    // Cerrar y reabrir el modal para actualizar
-    if (window._cartModal) {
-        window._cartModal.remove();
+    // ===== ELIMINAR DEL CARRITO =====
+    window.removeFromCart = function(eventId) {
+        cart = cart.filter(function(item) { return item.id !== eventId; });
+        updateCartBadge();
+        const modal = document.getElementById('cartModalContainer');
+        if (modal) {
+            modal.remove();
+        }
         openCartModal();
-    }
-    showToast('🗑️ Evento eliminado del carrito', 'success');
-};
+        showToast('🗑️ Evento eliminado del carrito', 'success');
+    };
 
     // ===== TOAST =====
     function showToast(message, type) {
