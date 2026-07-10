@@ -639,3 +639,102 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() { toast.remove(); }, 3000);
     }
 });
+// ============================================================
+// EXPORTAR E IMPORTAR VENTAS CON JSON
+// ============================================================
+
+// ===== EXPORTAR VENTAS =====
+function exportarVentas() {
+    const ventas = Storage.getVentas();
+    
+    if (ventas.length === 0) {
+        alert('⚠️ No hay ventas para exportar');
+        return;
+    }
+
+    const datos = {
+        fechaExportacion: new Date().toISOString(),
+        totalVentas: ventas.length,
+        ventas: ventas
+    };
+
+    const json = JSON.stringify(datos, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `ventas_${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    
+    alert(`✅ ${ventas.length} ventas exportadas correctamente`);
+}
+
+// ===== IMPORTAR VENTAS =====
+function importarVentas() {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    
+    input.onchange = function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            try {
+                const datos = JSON.parse(event.target.result);
+                
+                if (!datos.ventas || !Array.isArray(datos.ventas)) {
+                    alert('❌ El archivo no contiene ventas válidas');
+                    return;
+                }
+
+                const opcion = confirm(
+                    `📊 Se encontraron ${datos.ventas.length} ventas.\n` +
+                    `Fecha: ${datos.fechaExportacion || 'No especificada'}\n\n` +
+                    `¿Reemplazar las ventas actuales?\n(Cancelar = Agregar)`
+                );
+
+                let ventasActuales = Storage.getVentas();
+                
+                if (opcion) {
+                    Storage.setVentas(datos.ventas);
+                    alert(`✅ ${datos.ventas.length} ventas importadas (reemplazo)`);
+                } else {
+                    const idsExistentes = new Set(ventasActuales.map(v => v.id));
+                    const ventasNuevas = datos.ventas.filter(v => !idsExistentes.has(v.id));
+                    
+                    if (ventasNuevas.length === 0) {
+                        alert('⚠️ Todas las ventas ya existen (mismos IDs)');
+                        return;
+                    }
+                    
+                    ventasActuales = ventasActuales.concat(ventasNuevas);
+                    Storage.setVentas(ventasActuales);
+                    alert(`✅ ${ventasNuevas.length} nuevas ventas importadas (agregadas)`);
+                }
+                
+                location.reload();
+            } catch (error) {
+                alert('❌ Error al leer el archivo: ' + error.message);
+            }
+        };
+        reader.readAsText(file);
+    };
+    input.click();
+}
+
+// ===== VER VENTAS EN CONSOLA =====
+function verVentasEnConsola() {
+    const ventas = Storage.getVentas();
+    console.log('========================================');
+    console.log('📊 VENTAS GUARDADAS');
+    console.log('========================================');
+    console.log('Total:', ventas.length);
+    console.table(ventas);
+    alert(`✅ ${ventas.length} ventas mostradas en la consola (F12 → Console)`);
+    return ventas;
+}
