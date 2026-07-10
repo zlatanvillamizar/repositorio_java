@@ -459,8 +459,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="reporte-filtros">
                     <div class="filtro-group">
                         <label><i class="fas fa-calendar"></i> Año</label>
-                        <select id="reporteAnio">
-                            ${generarOpcionesAnios()}
+                        <select id="reporteAño">
+                            ${generarOpcionesAños()}
                         </select>
                     </div>
                     <div class="filtro-group">
@@ -479,27 +479,26 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
 
         document.getElementById('btnGenerarReporte').addEventListener('click', function() {
-            const anio = parseInt(document.getElementById('reporteAnio').value);
+            const año = parseInt(document.getElementById('reporteAño').value);
             const mes = parseInt(document.getElementById('reporteMes').value);
-            generarReporte(anio, mes);
+            generarReporte(año, mes);
         });
 
         const fecha = new Date();
         generarReporte(fecha.getFullYear(), fecha.getMonth() + 1);
     }
 
-    // ============================================================
-    // 8. FUNCIONES AUXILIARES DEL REPORTE
-    // ============================================================
-    function generarOpcionesAnios() {
-        const anioActual = new Date().getFullYear();
+    // ===== GENERAR OPCIONES DE AÑOS =====
+    function generarOpcionesAños() {
+        const añoActual = new Date().getFullYear();
         let opciones = '';
-        for (let anio = anioActual; anio >= 2020; anio--) {
-            opciones += `<option value="${anio}">${anio}</option>`;
+        for (let año = añoActual; año >= 2020; año--) {
+            opciones += `<option value="${año}">${año}</option>`;
         }
         return opciones;
     }
 
+    // ===== GENERAR OPCIONES DE MESES =====
     function generarOpcionesMeses() {
         const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
         const mesActual = new Date().getMonth();
@@ -509,14 +508,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }).join('');
     }
 
-    function generarReporte(anio, mes) {
+    // ===== GENERAR REPORTE =====
+    function generarReporte(año, mes) {
         const container = document.getElementById('reporteResultados');
         const ventas = Storage.getVentas();
         const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
         
         const ventasFiltradas = ventas.filter(function(v) {
             const fecha = new Date(v.fecha);
-            return fecha.getFullYear() === anio && (fecha.getMonth() + 1) === mes;
+            return fecha.getFullYear() === año && (fecha.getMonth() + 1) === mes;
         });
 
         if (ventasFiltradas.length === 0) {
@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="reporte-vacio">
                     <i class="fas fa-inbox"></i>
                     <h3>No hay ventas en este período</h3>
-                    <p>No se encontraron ventas para ${meses[mes-1]} de ${anio}</p>
+                    <p>No se encontraron ventas para ${meses[mes-1]} de ${año}</p>
                 </div>
             `;
             return;
@@ -560,7 +560,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-bottom:1rem;">
                 <h4 style="color:#ffb3c6;font-family:'Georgia',serif;font-size:1.1rem;">
                     <i class="fas fa-calendar-alt" style="color:#d4af37;"></i>
-                    ${nombreMes} ${anio}
+                    ${nombreMes} ${año}
                 </h4>
                 <span style="color:#a07e92;font-size:0.85rem;">
                     <i class="fas fa-ticket-alt"></i> ${totalEventos} eventos · ${totalCantidad} boletas
@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ============================================================
-    // 9. TOAST
+    // 8. TOAST - Notificaciones
     // ============================================================
     function showToast(message, type) {
         const toast = document.createElement('div');
