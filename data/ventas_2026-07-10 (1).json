@@ -1,0 +1,6291 @@
+{
+  "fechaExportacion": "2026-07-10T20:29:26.723Z",
+  "totalVentas": 262,
+  "ventas": [
+    {
+      "id": 1783388098728,
+      "fecha": "2026-07-07T01:34:58.728Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "132132",
+        "name": "adasda",
+        "address": "no se 15",
+        "phone": "1412412414",
+        "email": "isabella.castillo@cliente.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712438366,
+      "fecha": "2026-07-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712437553,
+      "fecha": "2026-07-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712438411,
+      "fecha": "2026-07-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712438038,
+      "fecha": "2026-07-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712438163,
+      "fecha": "2026-07-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712438139,
+      "fecha": "2026-08-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712437699,
+      "fecha": "2026-08-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712438412,
+      "fecha": "2026-08-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712438394,
+      "fecha": "2026-09-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712437511,
+      "fecha": "2026-09-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712575830,
+      "fecha": "2026-07-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569651,
+      "fecha": "2026-07-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712570698,
+      "fecha": "2026-07-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571617,
+      "fecha": "2026-07-04T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712573986,
+      "fecha": "2026-07-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712572258,
+      "fecha": "2026-07-06T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712576802,
+      "fecha": "2026-07-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712572327,
+      "fecha": "2026-07-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569277,
+      "fecha": "2026-07-09T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712571589,
+      "fecha": "2026-07-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712574113,
+      "fecha": "2026-07-11T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712570441,
+      "fecha": "2026-07-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712575536,
+      "fecha": "2026-07-13T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712567771,
+      "fecha": "2026-07-14T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569736,
+      "fecha": "2026-07-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712576477,
+      "fecha": "2026-07-16T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712567788,
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712576782,
+      "fecha": "2026-07-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712572762,
+      "fecha": "2026-07-19T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712570844,
+      "fecha": "2026-07-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569680,
+      "fecha": "2026-07-21T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712575381,
+      "fecha": "2026-07-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712575090,
+      "fecha": "2026-07-23T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712575212,
+      "fecha": "2026-07-24T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571898,
+      "fecha": "2026-07-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712575100,
+      "fecha": "2026-07-26T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571283,
+      "fecha": "2026-07-27T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712571106,
+      "fecha": "2026-07-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571707,
+      "fecha": "2026-07-29T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712571417,
+      "fecha": "2026-07-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569909,
+      "fecha": "2026-07-31T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712570469,
+      "fecha": "2026-08-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569679,
+      "fecha": "2026-08-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712571699,
+      "fecha": "2026-08-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712576739,
+      "fecha": "2026-08-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712567685,
+      "fecha": "2026-08-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712567553,
+      "fecha": "2026-08-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571736,
+      "fecha": "2026-08-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712576330,
+      "fecha": "2026-08-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571554,
+      "fecha": "2026-08-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712574752,
+      "fecha": "2026-08-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712573493,
+      "fecha": "2026-08-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712569174,
+      "fecha": "2026-08-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712573944,
+      "fecha": "2026-08-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712575120,
+      "fecha": "2026-09-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712572413,
+      "fecha": "2026-09-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712574112,
+      "fecha": "2026-09-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712573985,
+      "fecha": "2026-09-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712570036,
+      "fecha": "2026-09-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712569258,
+      "fecha": "2026-09-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712574791,
+      "fecha": "2026-09-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712569257,
+      "fecha": "2026-09-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712573394,
+      "fecha": "2026-09-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712567222,
+      "fecha": "2026-09-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569099,
+      "fecha": "2026-09-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712571316,
+      "fecha": "2026-09-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712571249,
+      "fecha": "2026-10-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712569246,
+      "fecha": "2026-10-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712567551,
+      "fecha": "2026-10-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712567925,
+      "fecha": "2026-10-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712574291,
+      "fecha": "2026-10-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712575142,
+      "fecha": "2026-10-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712572621,
+      "fecha": "2026-10-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712573116,
+      "fecha": "2026-10-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712567893,
+      "fecha": "2026-10-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712569727,
+      "fecha": "2026-10-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712574543,
+      "fecha": "2026-10-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712567702,
+      "fecha": "2026-10-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712573541,
+      "fecha": "2026-10-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987462,
+      "fecha": "2024-07-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712987515,
+      "fecha": "2024-07-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712988173,
+      "fecha": "2024-07-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712990946,
+      "fecha": "2024-07-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988929,
+      "fecha": "2024-08-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990528,
+      "fecha": "2024-08-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989958,
+      "fecha": "2024-08-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712990069,
+      "fecha": "2024-08-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990840,
+      "fecha": "2024-09-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992076,
+      "fecha": "2024-09-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712993561,
+      "fecha": "2024-09-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712995859,
+      "fecha": "2024-09-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992603,
+      "fecha": "2024-10-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712989052,
+      "fecha": "2024-10-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987924,
+      "fecha": "2024-10-14T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712992476,
+      "fecha": "2024-10-21T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993052,
+      "fecha": "2024-10-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712995067,
+      "fecha": "2024-11-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993994,
+      "fecha": "2024-11-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712995432,
+      "fecha": "2024-11-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995580,
+      "fecha": "2024-11-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712992053,
+      "fecha": "2024-12-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995696,
+      "fecha": "2024-12-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994134,
+      "fecha": "2024-12-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991081,
+      "fecha": "2024-12-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712988271,
+      "fecha": "2025-01-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712996266,
+      "fecha": "2025-01-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989275,
+      "fecha": "2025-01-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712991549,
+      "fecha": "2025-01-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991374,
+      "fecha": "2025-02-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991575,
+      "fecha": "2025-02-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712994691,
+      "fecha": "2025-02-14T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712988337,
+      "fecha": "2025-02-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993207,
+      "fecha": "2025-02-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712991760,
+      "fecha": "2025-03-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995284,
+      "fecha": "2025-03-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712996896,
+      "fecha": "2025-03-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712997172,
+      "fecha": "2025-03-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987728,
+      "fecha": "2025-04-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991176,
+      "fecha": "2025-04-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712996519,
+      "fecha": "2025-04-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994271,
+      "fecha": "2025-04-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712988234,
+      "fecha": "2025-04-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712987392,
+      "fecha": "2025-05-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994821,
+      "fecha": "2025-05-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712996916,
+      "fecha": "2025-05-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712992792,
+      "fecha": "2025-05-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712996729,
+      "fecha": "2025-06-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995534,
+      "fecha": "2025-06-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712997105,
+      "fecha": "2025-06-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712991214,
+      "fecha": "2025-06-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990704,
+      "fecha": "2025-06-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712990308,
+      "fecha": "2025-07-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992829,
+      "fecha": "2025-07-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712990467,
+      "fecha": "2025-07-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712987973,
+      "fecha": "2025-07-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712994505,
+      "fecha": "2025-08-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992608,
+      "fecha": "2025-08-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712988535,
+      "fecha": "2025-08-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988142,
+      "fecha": "2025-08-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712991987,
+      "fecha": "2025-09-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991105,
+      "fecha": "2025-09-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712990636,
+      "fecha": "2025-09-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712990753,
+      "fecha": "2025-09-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712996352,
+      "fecha": "2025-09-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712996617,
+      "fecha": "2025-10-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995975,
+      "fecha": "2025-10-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712996331,
+      "fecha": "2025-10-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712997201,
+      "fecha": "2025-10-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712988609,
+      "fecha": "2025-11-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988472,
+      "fecha": "2025-11-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712993864,
+      "fecha": "2025-11-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993714,
+      "fecha": "2025-11-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987701,
+      "fecha": "2025-12-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991132,
+      "fecha": "2025-12-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712989123,
+      "fecha": "2025-12-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994487,
+      "fecha": "2025-12-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712990621,
+      "fecha": "2025-12-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993890,
+      "fecha": "2026-01-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992134,
+      "fecha": "2026-01-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712988958,
+      "fecha": "2026-01-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712992622,
+      "fecha": "2026-01-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988495,
+      "fecha": "2026-02-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993238,
+      "fecha": "2026-02-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987305,
+      "fecha": "2026-02-14T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712993406,
+      "fecha": "2026-02-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990835,
+      "fecha": "2026-02-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712995725,
+      "fecha": "2026-03-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994231,
+      "fecha": "2026-03-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994018,
+      "fecha": "2026-03-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992680,
+      "fecha": "2026-03-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989074,
+      "fecha": "2026-04-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712989789,
+      "fecha": "2026-04-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712993021,
+      "fecha": "2026-04-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712989058,
+      "fecha": "2026-04-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712990526,
+      "fecha": "2026-04-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991360,
+      "fecha": "2026-05-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994964,
+      "fecha": "2026-05-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712997159,
+      "fecha": "2026-05-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712995127,
+      "fecha": "2026-05-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994411,
+      "fecha": "2026-06-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991135,
+      "fecha": "2026-06-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712991223,
+      "fecha": "2026-06-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994239,
+      "fecha": "2026-06-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712996648,
+      "fecha": "2026-06-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712997228,
+      "fecha": "2026-07-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990272,
+      "fecha": "2026-07-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991970,
+      "fecha": "2026-07-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994037,
+      "fecha": "2026-07-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712996550,
+      "fecha": "2026-07-09T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994148,
+      "fecha": "2026-07-11T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995270,
+      "fecha": "2026-07-13T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989673,
+      "fecha": "2026-07-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990748,
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712991525,
+      "fecha": "2026-07-19T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994920,
+      "fecha": "2026-07-21T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712996434,
+      "fecha": "2026-07-23T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988962,
+      "fecha": "2026-07-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712996467,
+      "fecha": "2026-07-27T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993901,
+      "fecha": "2026-07-29T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989047,
+      "fecha": "2026-07-31T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712994886,
+      "fecha": "2026-08-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995927,
+      "fecha": "2026-08-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712994592,
+      "fecha": "2026-08-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 201000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994775,
+      "fecha": "2026-08-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988909,
+      "fecha": "2026-08-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712987512,
+      "fecha": "2026-08-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988499,
+      "fecha": "2026-08-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712988177,
+      "fecha": "2026-08-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990510,
+      "fecha": "2026-08-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712995019,
+      "fecha": "2026-08-31T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988570,
+      "fecha": "2026-09-02T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991203,
+      "fecha": "2026-09-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712989479,
+      "fecha": "2026-09-08T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712991852,
+      "fecha": "2026-09-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712993178,
+      "fecha": "2026-09-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712996993,
+      "fecha": "2026-09-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712990707,
+      "fecha": "2026-09-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712993342,
+      "fecha": "2026-09-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 276000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712989462,
+      "fecha": "2026-09-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712993265,
+      "fecha": "2026-09-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 85000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992729,
+      "fecha": "2026-09-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712995599,
+      "fecha": "2026-09-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992055,
+      "fecha": "2026-10-01T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712991993,
+      "fecha": "2026-10-03T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712993126,
+      "fecha": "2026-10-05T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712992739,
+      "fecha": "2026-10-07T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712988575,
+      "fecha": "2026-10-10T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712997215,
+      "fecha": "2026-10-12T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995083,
+      "fecha": "2026-10-15T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712994667,
+      "fecha": "2026-10-18T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712995002,
+      "fecha": "2026-10-20T00:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 156000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783712991178,
+      "fecha": "2026-10-22T00:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712992691,
+      "fecha": "2026-10-25T00:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783712989522,
+      "fecha": "2026-10-28T00:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783712987703,
+      "fecha": "2026-10-30T00:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714434568,
+      "fecha": "2026-07-01T17:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714437153,
+      "fecha": "2026-07-05T17:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 92000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714437555,
+      "fecha": "2026-07-10T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        },
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 234000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714431656,
+      "fecha": "2026-07-15T17:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        },
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 134000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714440987,
+      "fecha": "2026-07-20T17:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 54000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714432734,
+      "fecha": "2026-07-25T17:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714438097,
+      "fecha": "2026-07-30T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714437054,
+      "fecha": "2026-08-03T17:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714433993,
+      "fecha": "2026-08-08T17:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714441385,
+      "fecha": "2026-08-12T17:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714437441,
+      "fecha": "2026-08-18T17:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714434148,
+      "fecha": "2026-08-22T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714441384,
+      "fecha": "2026-08-28T17:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714436142,
+      "fecha": "2026-09-02T17:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714433154,
+      "fecha": "2026-09-06T17:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 170000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714435685,
+      "fecha": "2026-09-10T17:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 162000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714438653,
+      "fecha": "2026-09-15T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714441084,
+      "fecha": "2026-09-20T17:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714438005,
+      "fecha": "2026-09-25T17:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714434334,
+      "fecha": "2026-10-01T17:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714436987,
+      "fecha": "2026-10-05T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714440350,
+      "fecha": "2026-10-10T17:00:00.000Z",
+      "items": [
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        },
+        {
+          "id": 1,
+          "nombre": "Cry Baby Tour",
+          "precio": 85000
+        }
+      ],
+      "total": 255000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714437646,
+      "fecha": "2026-10-15T17:00:00.000Z",
+      "items": [
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        },
+        {
+          "id": 2,
+          "nombre": "K-12 Tour",
+          "precio": 92000
+        }
+      ],
+      "total": 184000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    },
+    {
+      "id": 1783714432008,
+      "fecha": "2026-10-20T17:00:00.000Z",
+      "items": [
+        {
+          "id": 4,
+          "nombre": "Hades Tour",
+          "precio": 67000
+        }
+      ],
+      "total": 67000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Medellín"
+    },
+    {
+      "id": 1783714438822,
+      "fecha": "2026-10-25T17:00:00.000Z",
+      "items": [
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        },
+        {
+          "id": 5,
+          "nombre": "After School Tour",
+          "precio": 54000
+        }
+      ],
+      "total": 108000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Barranquilla"
+    },
+    {
+      "id": 1783714434593,
+      "fecha": "2026-10-30T17:00:00.000Z",
+      "items": [
+        {
+          "id": 3,
+          "nombre": "Portals Tour",
+          "precio": 78000
+        }
+      ],
+      "total": 78000,
+      "cliente": {
+        "doc": "123456789",
+        "name": "Cliente Test",
+        "address": "Calle Test 123",
+        "phone": "3001234567",
+        "email": "test@mail.com"
+      },
+      "ciudad": "Bogotá"
+    }
+  ]
+}
