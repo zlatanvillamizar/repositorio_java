@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="reporte-filtros">
                     <div class="filtro-group">
                         <label><i class="fas fa-calendar"></i> Año</label>
-                        <select id="reporteAño">
+                        <select id="reporteAnio">
                             ${generarOpcionesAños()}
                         </select>
                     </div>
@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
 
         document.getElementById('btnGenerarReporte').addEventListener('click', function() {
-            const año = parseInt(document.getElementById('reporteAño').value);
+            const año = parseInt(document.getElementById('reporteAnio').value);
             const mes = parseInt(document.getElementById('reporteMes').value);
             generarReporte(año, mes);
         });
@@ -511,7 +511,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // ===== GENERAR REPORTE =====
     function generarReporte(año, mes) {
         const container = document.getElementById('reporteResultados');
+        
+        // ✅ ESTA ES LA LÍNEA QUE CARGA LAS VENTAS DEL LOCALSTORAGE
         const ventas = Storage.getVentas();
+        
         const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
         
         const ventasFiltradas = ventas.filter(function(v) {
